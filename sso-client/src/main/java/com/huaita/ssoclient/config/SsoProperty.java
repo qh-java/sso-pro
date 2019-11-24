@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "sso", ignoreUnknownFields = false)
 @PropertySource("classpath:conf/sso.properties")
 @Component
-public class SsoProperty {
+public class SsoProperty  {
 
   private String authCheck;
 
